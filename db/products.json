@@ -1,0 +1,67 @@
+{
+    "0": [
+        {
+            "id":"1",
+            "nombre":"Silla",
+            "img": "../img/silla.jpg",
+            "precio": 10000,
+            "stock": 20
+        },
+        {
+            "id":"2",
+            "nombre":"Mesa",
+            "img": "../img/mesa.jpg",
+            "precio": 18000,
+            "stock":20
+        },
+        {
+            "id":"3",
+            "nombre":"Alfombra",
+            "img": "../img/alfombra.jpg",
+            "precio": 11000,
+            "stock":20
+        },
+        {
+            "id":"4",
+            "nombre":"Lámpara",
+            "img": "../img/lampara.jpg",
+            "precio": 1000,
+            "stock": 50
+        },
+        {
+            "id":"5",
+            "nombre":"Sillón Puff",
+            "img": "../img/puff.jpg",
+            "precio": 8000,
+            "stock":30
+        },
+        {
+            "id":"6",
+            "nombre":"Mesa Ratona",
+            "img": "../img/ratona.jpg",
+            "precio": 13000,
+            "stock": 30
+        },
+        {
+            "id":"7",
+            "nombre":"Lámpara de pie",
+            "img": "../img/lampie.jpg",
+            "precio": 3000,
+            "stock":50
+        },
+        {
+            "id":"8",
+            "nombre":"Mueble",
+            "img": "../img/mueblelibro.jpg",
+            "precio": 15000,
+            "stock": 25
+        },
+        {
+            "id":"9",
+            "nombre":"Sillón",
+            "img": "../img/sillon.jpg",
+            "precio": 35000,
+            "stock": 10
+        }
+    ]
+}

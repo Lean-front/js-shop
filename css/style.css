@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FDFAEF;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(63, 0, 0);
+    height: 50px;
+    width: 100%;
+}
+#baselogo{
+    background-color: white;
+}
+#logo{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.user{
+    background-image: url(../img/user.png);
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    border: black 2 solid;
+}
+#menu{
+    width: 500px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px; 
+}
+ul li{
+      font-size: 20px;
+      color: white;
+      display: inline-block;
+      font-family: "lato", sans-serif; 
+}
+ul li:hover{
+      color: red; 
+}
+main{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    background-color: #EDCA4D;
+    width: 130px;
+    border-radius: 15px;
+}
+h2{
+    background-color: #ED7A4D;
+    width: 205px;
+    border-radius: 15px;
+}
+article{
+    border: rgb(63, 0, 0) 2px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+p{
+    font-size: 30px;
+}
+input{
+    border: black 1px solid;
+    font-weight: bold;
+    width: 40px;
+}
+#ajustecompras{
+    display: flex;
+    flex-wrap: wrap;
+    border: rgb(63, 0, 0) 2px solid;
+    justify-content: center;
+    width: 150px;
+    border-radius: 20px;
+}
+#p-chico{
+    font-size: 22px;
+}
+#imgscale{
+    width: 100%;
+    height: auto;
+}
+.open{
+    color: black;
+    background-color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    height: 30px;
+    width: 800px;
+}
+.open:hover{
+    background-color: rgb(158, 238, 158);
+}
+.clean{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    font-weight: 900;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+}
+.clean:hover{
+    color: rgb(26, 26, 26);
+    background-color: rgb(255, 139, 139);
+}
+.buy{
+    color: white;
+    background-color: rgb(0, 173, 29);
+    font-weight: 900;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+}
+.buy:hover{
+    color: rgb(26, 26, 26);
+    background-color: rgb(162, 216, 171);
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.cartshop{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 204, 109);
+    width: 100%;
+    border-radius: 10px;
+}
+h3{
+    font-size: 50px;
+    color: #ED7A4D;
+}
+h4{
+    font-size: 20px;
+    color: white;
+}
+.btn-comprar{
+    background-color: green;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    height: 50px;
+}
+.btn-eliminar{
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+}
